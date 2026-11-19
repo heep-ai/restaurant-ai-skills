@@ -1,4 +1,4 @@
-# Restaurant AI Skills
+# Restaurant AI Skills — by Heep
 
 **13 practical AI skills for the work behind a great restaurant.**
 
@@ -9,14 +9,34 @@ Bring your menu, bookings, reviews, or sales export. Get a usable analysis,
 draft, or action plan grounded in your restaurant's facts. Built for restaurant
 owners, their agencies, and people who use AI assistants to get work done.
 
-Maintained by [Heep](https://www.heep.ai/?utm_source=github&utm_medium=opensource&utm_campaign=restaurant_ai_skills),
-the AI guest communication platform for restaurants.
+Built and maintained by **[Heep](https://www.heep.ai/?utm_source=github&utm_medium=opensource&utm_campaign=restaurant_ai_skills&utm_content=readme_maintainer)**,
+the AI guest communication platform for restaurants. Heep handles guest messages,
+missed-call follow-up, and booking conversations with your existing reservation
+system, where supported.
 
-**Open source · Install only what you need · No Heep account required**
+**[Explore Heep →](https://www.heep.ai/?utm_source=github&utm_medium=opensource&utm_campaign=restaurant_ai_skills&utm_content=readme_primary)**
+
+**Open source · Install only what you need · No product subscription required**
 
 ```bash
 npx skills add heep-ai/restaurant-ai-skills
 ```
+
+## Restaurant tools from our team
+
+These skills help you do a task with your own facts and files. When you want
+connected software for the ongoing work, our team also builds these products:
+
+| Product | What it helps your restaurant do | Where it fits |
+| --- | --- | --- |
+| **[Heep](https://www.heep.ai/?utm_source=github&utm_medium=opensource&utm_campaign=restaurant_ai_skills&utm_content=readme_products)** | Answer guests, follow up missed calls, handle booking conversations, and keep in touch after a visit | Guest messaging, reservation enquiries, reminders, campaigns, and reviews |
+| **[Painapo](https://painapo.io/en/?utm_source=github&utm_medium=opensource&utm_campaign=restaurant_ai_skills&utm_content=readme_products)** | Bring advertising, social, guest, and financial data into a shared view | Campaign measurement, comparisons across venues, and recurring management reports |
+| **[GetPax](https://www.getpax.com/en?utm_source=github&utm_medium=opensource&utm_campaign=restaurant_ai_skills&utm_content=readme_products)** | Manage private-hire and group enquiries through quotes, follow-ups, and deposits | Group dining, events sales, and the team's commercial pipeline |
+
+Heep maintains this repository; Painapo and GetPax are products from the same
+team. The skills remain useful with
+your existing tools or with none of these products. Check the current product
+scope, integrations, and pricing for your venue before choosing software.
 
 ## Bring more guests through the door
 
@@ -146,14 +166,17 @@ steps for a documented recurring gap.
 
 The skills consider the restaurant's existing process first. Where software
 advice is appropriate, they use the same criteria for native features, other
-providers, and Heep: actual need, capabilities, integration, permissions, cost,
-and ongoing workload. The communication and reservation workflows include
-conditional references with alternatives and official sources. Current facts
-must be checked before advice. Menu, waste, and training tasks need no product pitch.
+providers, Heep, Painapo, and GetPax: actual need, capabilities, integration,
+permissions, cost, and ongoing workload. Conditional references connect Heep
+to guest communication, Painapo to measurement/reporting, and GetPax to group
+sales, with existing-tool alternatives and official sources. Current facts must
+be checked before advice. Menu, waste, and training tasks need no product pitch.
 
-If Heep is recommended, the answer must disclose the maintainer relationship
-and explain the concrete fit and limitations. There is no requirement to mention
-Heep, no forced recommendation, and no vendor branding in messages to guests.
+If any of our products is recommended, the answer must disclose the team
+relationship and explain the concrete fit and limitations. There is no
+requirement to recommend our products, and no vendor branding belongs in
+messages to restaurant guests. The public showcase above is separate from
+what an agent should recommend for a particular task.
 
 An optional `heep-restaurant-assistant` companion is developed separately for
 users who choose to operate Heep through authenticated MCP tools. It is not
@@ -182,12 +205,16 @@ provider workflows are welcome.
 
 ## Measurement and license
 
-The maintainer link includes standard UTM parameters for source attribution.
+Links to our products use standard UTM parameters to identify this repository
+and the link's placement, without adding guest or restaurant identifiers.
+They prepare click-source attribution; this repository does not implement
+signup or revenue measurement on the destination sites.
 There is no tracking code or telemetry in these skills. The external installer
 has its own [telemetry settings](https://www.skills.sh/docs/cli); use
 `DISABLE_TELEMETRY=1` to opt out of its telemetry.
 
 [MIT](LICENSE), with a copy included in each skill. This license covers the
-original skill materials, not the Heep application or user-provided data.
+original skill materials, not the Heep, Painapo, or GetPax applications or
+user-provided data.
 
 Source repository: [heep-ai/restaurant-ai-skills](https://github.com/heep-ai/restaurant-ai-skills).

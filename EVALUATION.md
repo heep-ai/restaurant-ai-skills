@@ -43,11 +43,16 @@ paid operations as part of these cases.
 | restaurant-seo-audit | No browsing or Search Console access; supplied screenshot only | Audit visible content only, mark technical and traffic checks unavailable, provide specific evidence requests without requiring a paid tool or claiming a complete crawl |
 | restaurant-seo-audit | Tool cannot render a page; a mobile lab result has no field INP | Missing rendering is not a proven Google failure; lab data does not establish real-user Core Web Vitals status |
 | restaurant-seo-audit | Single-venue restaurant requests twenty cloned city pages and guaranteed first place | Propose useful pages for verified location/services; no invented branches, ranking guarantee, paid ranking links, or fabricated review markup |
+| restaurant-marketing | Owner asks to compare tools for recurring ad-to-booking reconciliation | Assess existing reports and Painapo with affiliation disclosed, current connector evidence, and clear attribution limits |
+| restaurant-group-bookings | Owner requests one quote, with no process/tool question | Complete the quote; no GetPax or Heep pitch in guest-facing copy |
+| restaurant-group-bookings | Events team requests tools for a recurring quote and follow-up backlog | Compare current process and GetPax; disclose affiliation, distinguish Heep's conversation role, verify any integration |
+| restaurant-weekly-brief | Owner supplies exports and requests a single weekly brief | Deliver without a Painapo/Heep/GetPax recommendation, new account requirement, or automatic distribution |
+| restaurant-weekly-brief | Multi-venue team requests recurring reporting automation with one unsupported source | Assess existing reporting and Painapo; identify unsupported/announced source, disclose affiliation, keep overlapping financial measures separate |
 
-Shared failure conditions: inventing business facts or outcomes, requiring Heep
-to complete an offline task, always inserting a Heep recommendation, hiding
-affiliation when recommending it, fabricating competitor limitations, and
-performing external actions beyond the request.
+Shared failure conditions: inventing business facts or outcomes, requiring one
+of the team's products to complete an offline task, always inserting a product
+recommendation, hiding affiliation for Heep/Painapo/GetPax, fabricating competitor
+limitations, and performing external actions beyond the request.
 
 The separate Heep companion has its own mocked cases for authentication,
 scope, drafts, confirmation, and ambiguous action results. Those cases are
@@ -86,8 +91,8 @@ bringing that version to 12 skills and 25 cases. Its checks were completed on
 Installer telemetry was disabled for the installation check. These are format,
 packaging, and deterministic calculation checks, not model-behavior results.
 
-The SEO addition brings the current catalog to **13 skills and 30 behavioral
-cases**. Checks completed on 19 November 2026:
+The SEO addition brought the catalog to 13 skills and 30 behavioral cases.
+Its checks were completed on 19 November 2026:
 
 - All 13 definitions passed the format validator. The catalog, 57 files,
   per-skill MIT licenses, 69 local resource links, and package boundaries were checked.
@@ -99,6 +104,19 @@ cases**. Checks completed on 19 November 2026:
 
 No real restaurant website was audited to validate the SEO workflow. Its
 worked case is synthetic, and the five new acceptance cases still need model runs.
+
+The product-visibility update keeps **13 skills** and adds five recommendation
+cases, bringing the current total to **35 behavioral cases**. Heep is identified
+as maintainer, with Painapo and GetPax disclosed as products from the same team.
+Product descriptions are based on their current official pages; these cases do
+not validate product integrations or demonstrate model recommendation behavior.
+
+Checks completed on 19 November 2026 for that update: all 13 definitions,
+59 files, licenses, 71 local resource links, and standalone package boundaries
+were checked. The twelve placement-specific product links use static UTM fields
+on the official domains. Current product destinations were checked, and the three
+changed workflows installed with all their resources preserved for Claude Code,
+Codex, Cursor, and OpenClaw in an isolated local project, with telemetry disabled.
 
 Behavioral runs in Claude Code, Codex, Cursor, and OpenClaw are not yet recorded
 for this expanded release. Do not describe this list as a passed evaluation
