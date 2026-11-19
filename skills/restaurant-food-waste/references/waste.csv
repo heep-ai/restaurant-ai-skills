@@ -1,0 +1,7 @@
+event_id,date,service,item,stage,reason,quantity,unit,cost_per_unit,avoidable
+W01,2026-11-16,lunch,Bread,overproduction,Prepared too much,2,kg,4,yes
+W02,2026-11-16,lunch,Vegetable peels,preparation,Inedible trim,1.5,kg,2,no
+W03,2026-11-16,dinner,Cooked pasta,overproduction,Prep exceeded demand,800,g,0.005,yes
+W04,2026-11-16,dinner,Mixed plate leftovers,plate,Reason not recorded,1,kg,,unknown
+W05,2026-11-16,dinner,Salad,spoilage,Stock spoiled,0.5,kg,6,yes
+W03,2026-11-16,dinner,Cooked pasta,overproduction,Prep exceeded demand,800,g,0.005,yes

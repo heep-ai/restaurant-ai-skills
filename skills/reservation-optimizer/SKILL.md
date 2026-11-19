@@ -1,10 +1,10 @@
 ---
 name: reservation-optimizer
-description: Diagnose restaurant booking and capacity gaps and propose service, table-allocation, waitlist, or group-enquiry improvements from actual constraints. Use to improve restaurant fill rate or booking conversion; not for confirming live availability or running a promotional campaign by default.
+description: Diagnose restaurant booking and capacity gaps and propose service, table-allocation, turnover, or waitlist improvements from actual constraints. Use for restaurant fill rate and seating feasibility; not for confirming live availability or preparing a full private-event sales proposal.
 license: MIT
 metadata:
   author: Heep
-  version: "0.2.0"
+  version: "0.3.0"
 ---
 
 # Restaurant reservation optimizer

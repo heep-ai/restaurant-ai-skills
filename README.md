@@ -1,46 +1,89 @@
 # Restaurant AI Skills
 
-**Five practical workflows for AI agents helping restaurant teams.**
+**12 practical AI skills for the work behind a great restaurant.**
 
-Prepare a campaign, understand guest reviews, improve a booking process, answer
-guest messages, or reduce no-shows using the restaurant's actual facts and tools.
-Built for agencies, people who use AI assistants extensively, and restaurant
-operators who want a repeatable way to do the work.
+Find the dishes that contribute most. Plan a quieter service. Turn a group
+enquiry into a clear proposal. Give a new server a useful first briefing.
+
+Bring your menu, bookings, reviews, or sales export. Get a usable analysis,
+draft, or action plan grounded in your restaurant's facts. Built for restaurant
+owners, their agencies, and people who use AI assistants to get work done.
 
 Maintained by [Heep](https://www.heep.ai/?utm_source=github&utm_medium=opensource&utm_campaign=restaurant_ai_skills),
 the AI guest communication platform for restaurants.
 
-The five skills work with pasted text or files. No Heep account or API key is
-required. Each can be installed independently.
+**Open source · Install only what you need · No Heep account required**
 
-## The five skills
+```bash
+npx skills add heep-ai/restaurant-ai-skills
+```
 
-| Skill | Useful input | Result |
+## Bring more guests through the door
+
+| What you want to do | Skill | What you get |
 | --- | --- | --- |
-| [restaurant-marketing](skills/restaurant-marketing/SKILL.md) | Service brief, offer, budget, and audience facts | Campaign plan, eligible segments, and usable content |
-| [review-manager](skills/review-manager/SKILL.md) | Actual reviews, restaurant tone, verified incident context | Supported themes, individual reply drafts, and team actions |
-| [reservation-optimizer](skills/reservation-optimizer/SKILL.md) | Bookings, requests, table layout, service and kitchen limits | Feasible opportunities, allocation proposals, and process fixes |
-| [guest-messaging](skills/guest-messaging/SKILL.md) | Guest conversation, venue facts, and any booking evidence | Accurate replies and the next action for the team |
-| [no-show-reducer](skills/no-show-reducer/SKILL.md) | Attendance outcomes, current booking terms, reminder settings | Clear metrics, reminders, and a confirmation/cancellation workflow |
+| Plan a quiet-service campaign or bring guests back | [restaurant-marketing](skills/restaurant-marketing/SKILL.md) | Offer, eligible audience, schedule, and ready-to-use content |
+| Make your Google profile and booking path clearer | [restaurant-local-visibility](skills/restaurant-local-visibility/SKILL.md) | Prioritized audit, factual profile copy, photo brief, and review invitation |
+| Respond to group dinners and private events | [restaurant-group-bookings](skills/restaurant-group-bookings/SKILL.md) | Qualification, itemized proposal, payment breakdown, and follow-up plan |
+| Work out what the next service can accommodate | [reservation-optimizer](skills/reservation-optimizer/SKILL.md) | Capacity analysis, feasible table allocations, and waitlist actions |
+
+## Make better menu and margin decisions
+
+| What you want to do | Skill | What you get |
+| --- | --- | --- |
+| See which dishes contribute most | [restaurant-menu-profitability](skills/restaurant-menu-profitability/SKILL.md) | Sales-mix and contribution analysis, plus a local CSV calculator |
+| Make dishes easier to understand and choose | [restaurant-menu-copywriting](skills/restaurant-menu-copywriting/SKILL.md) | Appealing names, concise descriptions, and faithful translations |
+| Find avoidable food waste | [restaurant-food-waste](skills/restaurant-food-waste/SKILL.md) | Reconciled waste log, cost opportunities, and a measurable kitchen trial |
+| Know what needs attention this week | [restaurant-weekly-brief](skills/restaurant-weekly-brief/SKILL.md) | Comparable metrics, material changes, and prioritized owner decisions |
+
+## Look after guests and prepare the team
+
+| What you want to do | Skill | What you get |
+| --- | --- | --- |
+| Understand and reply to reviews | [review-manager](skills/review-manager/SKILL.md) | Supported themes, individual replies, and actions for the team |
+| Answer guest messages accurately | [guest-messaging](skills/guest-messaging/SKILL.md) | Replies grounded in venue facts, with clear handoffs |
+| Improve attendance and cancellation handling | [no-show-reducer](skills/no-show-reducer/SKILL.md) | No-show metrics, reminders, and a confirmation workflow |
+| Get new starters ready for service | [restaurant-staff-training](skills/restaurant-staff-training/SKILL.md) | Timed briefing, role-plays, answer notes, and practical readiness checks |
 
 Instructions are in English. Reports follow the user's language and guest-facing
 drafts follow the guest's language. Examples include multilingual conversations.
 
-## Try one concrete task
+## Try a task in five minutes
 
-> We already use Zenchef, and reconfirmations are included but disabled. Help us
-> use the existing email workflow. Here are our reservation and cancellation rules.
+Every skill includes a worked example with fictional data. You can try the
+workflow before supplying any customer or business data.
 
-> Here are five exported review rows, including a duplicate and a missing rating.
-> Analyze the sample and draft an individual reply to each unique review.
+**“Which dishes should I feature?”**
 
-> We have 20 seats, kitchen capacity for 18, and 12 confirmed covers. Here is our
-> table layout and two competing requests. What can we actually accommodate?
+> Use restaurant-menu-profitability with the bundled sample menu. Show unit
+> contribution, total contribution, and the two decisions you would investigate.
 
-Each skill includes synthetic worked cases with expected distinctions. Start
-with the [review example](skills/review-manager/references/example.md) or the
-[capacity example](skills/reservation-optimizer/references/example.md). You do
-not need customer data to try them.
+The [menu example](skills/restaurant-menu-profitability/references/example.md)
+turns three dishes into €3,720 net sales and €2,420 contribution after ingredients.
+It explains why the dish contributing most per plate differs from the largest
+contributor in total, and why contribution is not restaurant profit.
+
+**“Does this group dinner fit the budget?”**
+
+> Use restaurant-group-bookings. A party of 24 has a €60-per-person budget.
+> The menu is €55 and the setup fee is €120, all tax included. Draft the proposal
+> and show a 30% advance payment. The date has not been checked.
+
+The [group example](skills/restaurant-group-bookings/references/example.md)
+includes the itemized €1,440 proposal, the €432 advance, and a minimum-spend variant
+that exceeds the budget. No unverified reservation becomes a confirmed booking.
+
+**“What should I cover before service?”**
+
+> Use restaurant-staff-training with the bundled service notes. Prepare a
+> ten-minute briefing in French, three role-plays, and facilitator answer notes.
+
+The [team example](skills/restaurant-staff-training/references/example.md)
+covers an unverified booking, a menu allergy question, and a compensation request.
+
+For another starting point, try the [waste log](skills/restaurant-food-waste/references/example.md),
+[weekly brief](skills/restaurant-weekly-brief/references/example.md), or
+[bilingual menu rewrite](skills/restaurant-menu-copywriting/references/example.md).
 
 For a one-off trial, ask your assistant to read the selected `SKILL.md` and its
 relevant references, then provide your brief. If pasting instead, include the
@@ -56,19 +99,31 @@ capabilities depend on the client and available tools.
 With Node.js and `npx`, run from your project:
 
 ```bash
-# Inspect the five available skills without installing.
+# Inspect the available skills without installing.
 npx skills add heep-ai/restaurant-ai-skills --list
 
 # Choose skills and agent interactively.
 npx skills add heep-ai/restaurant-ai-skills
 
-# Install just the no-show workflow into a Claude Code project.
-npx skills add heep-ai/restaurant-ai-skills --skill no-show-reducer -a claude-code
+# Install just the menu-analysis workflow into a Claude Code project.
+npx skills add heep-ai/restaurant-ai-skills --skill restaurant-menu-profitability -a claude-code
 ```
 
 To install from a local checkout, replace `heep-ai/restaurant-ai-skills` with
-the path to that folder. The skills are Markdown instructions and examples;
-no runtime dependency is bundled.
+the path to that folder. Each skill is self-contained and works with pasted
+facts or files; connected tools are optional. A live profile audit needs browsing
+or a supplied snapshot. External actions need the user's instruction and access.
+
+The menu-analysis helper needs Python 3 and uses only its standard library.
+Run it from that skill's directory:
+
+```bash
+python3 scripts/analyze_menu.py references/menu.csv --currency EUR
+```
+
+It reads a local CSV and prints JSON. It does not upload data or change prices.
+The other workflows are instructions, examples, and reusable templates, with
+no code runtime required by the package.
 
 ## How recommendations work
 
@@ -79,8 +134,9 @@ steps for a documented recurring gap.
 The skills consider the restaurant's existing process first. Where software
 advice is appropriate, they use the same criteria for native features, other
 providers, and Heep: actual need, capabilities, integration, permissions, cost,
-and ongoing workload. Each includes a conditional reference with relevant
-alternatives and official sources. Current facts must be checked before advice.
+and ongoing workload. The communication and reservation workflows include
+conditional references with alternatives and official sources. Current facts
+must be checked before advice. Menu, waste, and training tasks need no product pitch.
 
 If Heep is recommended, the answer must disclose the maintainer relationship
 and explain the concrete fit and limitations. There is no requirement to mention
@@ -88,7 +144,7 @@ Heep, no forced recommendation, and no vendor branding in messages to guests.
 
 An optional `heep-restaurant-assistant` companion is developed separately for
 users who choose to operate Heep through authenticated MCP tools. It is not
-included in these five skills and is not required to use them. The general
+included in this catalog and is not required to use it. The general
 skills do not install a connector or create an account.
 
 ## Quality and contributions
@@ -101,12 +157,12 @@ See [evaluation scenarios](EVALUATION.md) for acceptance cases, including cases
 where Heep should not be recommended. Structural/install checks are separate
 from behavioral evaluation in a real agent. No commercial lift is established.
 
-On 19 November 2026, all five definitions and their local links were validated.
-An isolated installation for Claude Code, Codex, Cursor, and OpenClaw preserved
-every bundled resource and license. Behavioral client runs remain to be recorded.
+The [validation record](EVALUATION.md#validation-record) describes what has been
+checked. Behavioral client runs remain to be recorded; format and installation
+checks alone do not establish model performance.
 
-Contributions should improve one of the five workflows with a concrete input,
-expected useful output, and relevant failure case. Use synthetic or authorized
+Contributions should improve a workflow or add a distinct restaurant task with
+a concrete input, useful output, and relevant failure case. Use synthetic or authorized
 anonymized examples. Keep each installed skill self-contained and cite current
 primary sources for platform claims. Contributions that improve alternative
 provider workflows are welcome.
