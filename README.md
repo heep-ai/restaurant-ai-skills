@@ -1,6 +1,6 @@
 # Restaurant AI Skills
 
-**12 practical AI skills for the work behind a great restaurant.**
+**13 practical AI skills for the work behind a great restaurant.**
 
 Find the dishes that contribute most. Plan a quieter service. Turn a group
 enquiry into a clear proposal. Give a new server a useful first briefing.
@@ -24,6 +24,7 @@ npx skills add heep-ai/restaurant-ai-skills
 | --- | --- | --- |
 | Plan a quiet-service campaign or bring guests back | [restaurant-marketing](skills/restaurant-marketing/SKILL.md) | Offer, eligible audience, schedule, and ready-to-use content |
 | Make your Google profile and booking path clearer | [restaurant-local-visibility](skills/restaurant-local-visibility/SKILL.md) | Prioritized audit, factual profile copy, photo brief, and review invitation |
+| Understand what holds back your website's search visibility | [restaurant-seo-audit](skills/restaurant-seo-audit/SKILL.md) | Technical and content audit, local query map, draft titles, and prioritized fixes |
 | Respond to group dinners and private events | [restaurant-group-bookings](skills/restaurant-group-bookings/SKILL.md) | Qualification, itemized proposal, payment breakdown, and follow-up plan |
 | Work out what the next service can accommodate | [reservation-optimizer](skills/reservation-optimizer/SKILL.md) | Capacity analysis, feasible table allocations, and waitlist actions |
 
@@ -80,6 +81,18 @@ that exceeds the budget. No unverified reservation becomes a confirmed booking.
 
 The [team example](skills/restaurant-staff-training/references/example.md)
 covers an unverified booking, a menu allergy question, and a compensation request.
+
+**“What should I fix to be easier to find on Google?”**
+
+> Use restaurant-seo-audit with the bundled site snapshots and search export.
+> Identify the first fixes, suggest page titles, and prepare a two-week action plan.
+
+The [SEO example](skills/restaurant-seo-audit/references/example.md) covers a
+blocked menu page, conflicting canonical signals, a broken booking link, and
+partial Search Console data. It includes a report template and separates
+observable fixes from unknown rankings and traffic impact. The existing
+local-visibility skill focuses on the Google Business Profile; this skill
+examines organic visibility of the restaurant's own website.
 
 For another starting point, try the [waste log](skills/restaurant-food-waste/references/example.md),
 [weekly brief](skills/restaurant-weekly-brief/references/example.md), or

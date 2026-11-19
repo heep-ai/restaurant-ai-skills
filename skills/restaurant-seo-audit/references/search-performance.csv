@@ -1,0 +1,8 @@
+source_row_id,period,query,clicks,impressions,average_position
+P01,prior,atelier des quais lyon,80,400,2
+P02,prior,bistrot lyon 2,20,1000,12
+P03,prior,restaurant groupe lyon 2,5,500,18
+C01,current,atelier des quais lyon,100,500,2
+C02,current,bistrot lyon 2,30,1200,10
+C03,current,restaurant groupe lyon 2,6,600,16
+C02,current,bistrot lyon 2,30,1200,10

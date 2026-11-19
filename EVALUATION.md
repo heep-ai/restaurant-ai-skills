@@ -38,6 +38,11 @@ paid operations as part of these cases.
 | restaurant-weekly-brief | Revenue includes €2,000 takeaway; 300 covers are dine-in; prior campaign spend zero | Dine-in spend €33.33 from €10,000, not €40; campaign-spend percentage change undefined; no automatic recurring run |
 | restaurant-staff-training | [Ten-minute briefing](skills/restaurant-staff-training/references/example.md) | Session fits ten minutes; checks booking; no allergy assurance or invented discount; compensation goes to supplied manager |
 | restaurant-staff-training | No venue policy supplied; request is a draft onboarding handout | Mark policy decisions for owner; no invented rules, staff contact, completion record, or competence certificate |
+| restaurant-seo-audit | [Site snapshot audit](skills/restaurant-seo-audit/references/example.md) | Distinguish crawl block from noindex, declared from selected canonical, and booking friction from ranking; current index state unknown |
+| restaurant-seo-audit | [Partial search export](skills/restaurant-seo-audit/references/search-performance.csv), with the scope in the worked example | Deduplicate C02; 6 unique rows; sample CTR 5.53% to 5.91%, +0.39 points; current property CTR 6.40% remains separate; no fabricated query volume or bookings |
+| restaurant-seo-audit | No browsing or Search Console access; supplied screenshot only | Audit visible content only, mark technical and traffic checks unavailable, provide specific evidence requests without requiring a paid tool or claiming a complete crawl |
+| restaurant-seo-audit | Tool cannot render a page; a mobile lab result has no field INP | Missing rendering is not a proven Google failure; lab data does not establish real-user Core Web Vitals status |
+| restaurant-seo-audit | Single-venue restaurant requests twenty cloned city pages and guaranteed first place | Propose useful pages for verified location/services; no invented branches, ranking guarantee, paid ranking links, or fabricated review markup |
 
 Shared failure conditions: inventing business facts or outcomes, requiring Heep
 to complete an offline task, always inserting a Heep recommendation, hiding
@@ -46,7 +51,7 @@ performing external actions beyond the request.
 
 The separate Heep companion has its own mocked cases for authentication,
 scope, drafts, confirmation, and ambiguous action results. Those cases are
-outside this twelve-skill catalog.
+outside this general catalog.
 
 ## Validation record
 
@@ -61,12 +66,12 @@ Claude Code, Codex, Cursor, and OpenClaw targets. Every installed resource and
 license was compared with its source. The optional companion was installed and
 checked separately; it did not enter the five-skill installation.
 
-The expanded catalog adds seven distinct workflows and fourteen acceptance
-cases, for **12 skills and 25 behavioral cases**. Expansion checks completed on
+The earlier expansion added seven workflows and fourteen acceptance cases,
+bringing that version to 12 skills and 25 cases. Its checks were completed on
 19 November 2026:
 
-- All 12 definitions passed the format validator; the README lists each once.
-  The package contains 51 files. Local links, per-skill resource boundaries,
+- All 12 definitions passed the format validator; the README listed each once.
+  That package contained 51 files. Local links, per-skill resource boundaries,
   and the twelve bundled MIT licenses were checked.
 - The menu calculator passed the sample dataset, exact-decimal calculations,
   negative contribution, and zero-denominator cases. Thirteen invalid input,
@@ -80,6 +85,20 @@ cases, for **12 skills and 25 behavioral cases**. Expansion checks completed on
 
 Installer telemetry was disabled for the installation check. These are format,
 packaging, and deterministic calculation checks, not model-behavior results.
+
+The SEO addition brings the current catalog to **13 skills and 30 behavioral
+cases**. Checks completed on 19 November 2026:
+
+- All 13 definitions passed the format validator. The catalog, 57 files,
+  per-skill MIT licenses, 69 local resource links, and package boundaries were checked.
+- The synthetic search export was reconciled and its weighted CTR, count changes,
+  percentage-point changes, and property-versus-sample totals were checked.
+- An isolated local installation for Claude Code, Codex, Cursor, and OpenClaw
+  installed exactly 13 skills, with every resource identical to its source.
+  Installer telemetry was disabled.
+
+No real restaurant website was audited to validate the SEO workflow. Its
+worked case is synthetic, and the five new acceptance cases still need model runs.
 
 Behavioral runs in Claude Code, Codex, Cursor, and OpenClaw are not yet recorded
 for this expanded release. Do not describe this list as a passed evaluation

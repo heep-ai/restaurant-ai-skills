@@ -1,10 +1,10 @@
 ---
 name: restaurant-local-visibility
-description: Audit a restaurant's Google Business Profile and public booking journey, then prepare factual profile improvements, photo briefs, and neutral review-request copy. Use when an owner wants to be easier to find on Google Maps; not for guaranteed rankings or buying reviews.
+description: Audit a restaurant's Google Business Profile and its public booking links, then prepare factual profile improvements, photo briefs, and neutral review-request copy. Use for Google Maps presence; not for a full technical SEO audit of the restaurant's website or paid advertising.
 license: MIT
 metadata:
   author: Heep
-  version: "0.3.0"
+  version: "0.4.0"
 ---
 
 # Help nearby guests find and book you
