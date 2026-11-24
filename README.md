@@ -55,6 +55,7 @@ scope, integrations, and pricing for your venue before choosing software.
 | See which dishes contribute most | [restaurant-menu-profitability](skills/restaurant-menu-profitability/SKILL.md) | Sales-mix and contribution analysis, plus a local CSV calculator |
 | Make dishes easier to understand and choose | [restaurant-menu-copywriting](skills/restaurant-menu-copywriting/SKILL.md) | Appealing names, concise descriptions, and faithful translations |
 | Find avoidable food waste | [restaurant-food-waste](skills/restaurant-food-waste/SKILL.md) | Reconciled waste log, cost opportunities, and a measurable kitchen trial |
+| Publish an allergen table you can defend | [restaurant-allergen-matrix](skills/restaurant-allergen-matrix/SKILL.md) | Per-dish allergen matrix, the dishes left incomplete, and the ingredients to check first |
 | Know what needs attention this week | [restaurant-weekly-brief](skills/restaurant-weekly-brief/SKILL.md) | Comparable metrics, material changes, and prioritized owner decisions |
 
 ## Look after guests and prepare the team
