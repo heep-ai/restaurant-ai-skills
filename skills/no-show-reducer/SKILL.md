@@ -58,7 +58,7 @@ responsible roles, and an observation period. Separate approved terms from
 policy proposals. Check current channel requirements and operational-contact
 eligibility before execution; do not append unrelated promotions to reminders.
 
-Offer a waitlist only genuinely released capacity, with an explicit confirmation
+Offer a waitlist only for genuinely released capacity, with an explicit confirmation
 method and expiry when supported by policy. Avoid promising one table to several
 people at once. Track sent/delivered reminders, reconfirmations, timely
 cancellations, reallocated tables, and attended visits separately.
