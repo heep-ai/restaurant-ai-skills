@@ -45,7 +45,7 @@ an opportunity estimate, not realized cash savings or restaurant profit.
 
 Normalize by attended covers or meals produced only when the denominator covers
 the same services and activity. Compare similar services, capture methods, and
-menu scope. A lighter waste bin with fewer guests is not by itself improvement.
+menu scope. A lighter waste bin with fewer guests is not by itself an improvement.
 Do not extrapolate one shift into annual savings without explicit assumptions.
 
 ## Propose a trial the kitchen can observe
