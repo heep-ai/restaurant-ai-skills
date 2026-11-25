@@ -34,7 +34,7 @@ whether a booking export covers service dates or booking-creation dates.
 Use capacity in the same units/time window as booked covers. Effective capacity
 must respect the tightest known physical, staffing, kitchen, and service limits.
 Do not multiply seats by theoretical turns without duration and arrival data.
-If table mix or time overlap matters, aggregate free seats alone is insufficient.
+If table mix or time overlap matters, aggregating free seats alone is insufficient.
 
 For occupancy, state the exact denominator. For booking conversion, define a
 cohort of unique eligible enquiries and known outcomes; do not divide unrelated
